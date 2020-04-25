@@ -2,76 +2,880 @@
 
 a) Abra o Prompt de Comando no Windows.
 
+aberto
+
 b) Execute o comando ipconfig. Quais os endereços IPs da sua estação, da máscara de rede e do gateway padrão?
+
+ Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::98a3:5f50:1beb:abee%11
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.0.11
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 192.168.0.1
 
 c) Calcule os endereços de rede IPv4 a partir do seu endereço IP da máscara de rede.
 
+192.168.0.1 - 192.168.0.254 
+
 d) Execute o comando ipconfig/all. Quais as informações foram apresentadas a mais?
+
+Configuração de IP do Windows
+
+   Nome do host. . . . . . . . . . . . . . . . : DESKTOP-VL72QU0
+   Sufixo DNS primário . . . . . . . . . . . . :
+   Tipo de nó. . . . . . . . . . . . . . . . . : híbrido
+   Roteamento de IP ativado. . . . . . . . . . : não
+   Proxy WINS ativado. . . . . . . . . . . . . : não
+
+Adaptador Ethernet Ethernet:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+   Descrição . . . . . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Endereço Físico . . . . . . . . . . . . . . : D0-94-66-A1-95-C0
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuração Automática Habilitada. . . . . : Sim
+
+Adaptador de Rede sem Fio Conexão Local* 1:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+   Descrição . . . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Endereço Físico . . . . . . . . . . . . . . : 1E-30-5B-FA-7D-9D
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuração Automática Habilitada. . . . . : Sim
+
+Adaptador de Rede sem Fio Conexão Local* 2:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+   Descrição . . . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Endereço Físico . . . . . . . . . . . . . . : 2E-30-5B-FA-7D-9D
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuração Automática Habilitada. . . . . : Sim
+
+Adaptador de Rede sem Fio Wi-Fi:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Descrição . . . . . . . . . . . . . . . . . : Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+   Endereço Físico . . . . . . . . . . . . . . : 9C-30-5B-FA-7D-9D
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuração Automática Habilitada. . . . . : Sim
+   Endereço IPv6 de link local . . . . . . . . : fe80::98a3:5f50:1beb:abee%11(Preferencial)
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.0.11(Preferencial)
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Concessão Obtida. . . . . . . . . . . . . . : sexta-feira, 24 de abril de 2020 22:20:39
+   Concessão Expira. . . . . . . . . . . . . . : sábado, 2 de maio de 2020 09:03:57
+   Gateway Padrão. . . . . . . . . . . . . . . : 192.168.0.1
+   Servidor DHCP . . . . . . . . . . . . . . . : 192.168.0.1
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 194785371
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-25-20-31-31-D0-94-66-A1-95-C0
+   Servidores DNS. . . . . . . . . . . . . . . : 181.213.132.3
+                                                 181.213.132.2
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+
+Adaptador Ethernet Conexão de Rede Bluetooth:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+   Descrição . . . . . . . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Endereço Físico . . . . . . . . . . . . . . : 9C-30-5B-FA-7D-9E
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configuração Automática Habilitada. . . . . : Sim
 
 e) Execute o comando ipconfig/release *Con*. Quai foi o resultado?
 
+Configuração de IP do Windows
+
+Nenhuma operação pode ser executada em Ethernet enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão Local* 1 enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão Local* 2 enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão de Rede Bluetooth enquanto a
+mídia estiver desconectada.
+
+Adaptador Ethernet Ethernet:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Conexão Local* 1:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Conexão Local* 2:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Wi-Fi:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::98a3:5f50:1beb:abee%11
+   Gateway Padrão. . . . . . . . . . . . . . . :
+
+Adaptador Ethernet Conexão de Rede Bluetooth:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
 f) Execute o comando ipconfig/renew. Qual foi o resultado?
+
+Configuração de IP do Windows
+
+Nenhuma operação pode ser executada em Ethernet enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão Local* 1 enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão Local* 2 enquanto a
+mídia estiver desconectada.
+Nenhuma operação pode ser executada em Conexão de Rede Bluetooth enquanto a
+mídia estiver desconectada.
+
+Adaptador Ethernet Ethernet:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Conexão Local* 1:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Conexão Local* 2:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Wi-Fi:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::98a3:5f50:1beb:abee%11
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.0.11
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 192.168.0.1
+
+Adaptador Ethernet Conexão de Rede Bluetooth:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
 
 g) Execute o comando ipconfig/displaydns. Quai foi o resultado?
 
+Configuração de IP do Windows
+
+    online.iesb.br
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : online.iesb.br
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 54351
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 186.251.61.196
+
+
+    push-6356c.firebaseio.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : push-6356c.firebaseio.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 165
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 35.201.97.85
+
+
+    history.google.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : history.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 5
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 8
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro CNAME . . . . . . . . . . . . . . : history.l.google.com
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.100
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.101
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.113
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.138
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.139
+
+
+     Nome do Registro. . . . . . . . . . . . . : history.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 130
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.186.102
+
+
+    cloud.bluestacks.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : cloud.bluestacks.com
+     Tipo de Registro. . . . . . . . . . . . . : 5
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 8
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro CNAME . . . . . . . . . . . . . . : ghs.google.com
+
+
+     Nome do Registro. . . . . . . . . . . . . : ghs.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 172.217.30.19
+
+
+     Nome do Registro. . . . . . . . . . . . . : ns1.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Adicional
+    Registro (Host). . . . . . . . . . . . . . : 216.239.32.10
+
+
+     Nome do Registro. . . . . . . . . . . . . : ns2.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Adicional
+    Registro (Host). . . . . . . . . . . . . . : 216.239.34.10
+
+
+     Nome do Registro. . . . . . . . . . . . . : ns3.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Adicional
+    Registro (Host). . . . . . . . . . . . . . : 216.239.36.10
+
+
+     Nome do Registro. . . . . . . . . . . . . : ns2.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 28
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 16
+    Seção. . . . . . . . . . . . . . . . . . . : Adicional
+    Registro AAAA. . . . . . . . . . . . . . . : 2001:4860:4802:34::a
+
+
+     Nome do Registro. . . . . . . . . . . . . : ns3.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 28
+     Tempo de Vida . . . . . . . . . . . . . . : 57
+     Comprimento dos Dados . . . . . . . . . . : 16
+    Seção. . . . . . . . . . . . . . . . . . . : Adicional
+    Registro AAAA. . . . . . . . . . . . . . . : 2001:4860:4802:36::a
+
+
+    mtalk.google.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : mtalk.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 5
+     Tempo de Vida . . . . . . . . . . . . . . : 93
+     Comprimento dos Dados . . . . . . . . . . : 8
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro CNAME . . . . . . . . . . . . . . : mobile-gtalk.l.google.com
+
+
+     Nome do Registro. . . . . . . . . . . . . : mobile-gtalk.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 93
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 64.233.190.188
+
+
+    s-usc1c-nss-207.firebaseio.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : s-usc1c-nss-207.firebaseio.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 168
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 35.201.97.85
+
+
+    ss64.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : ss64.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 85927
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 216.92.186.205
+
+
+    clients4.google.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : clients4.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 5
+     Tempo de Vida . . . . . . . . . . . . . . : 7
+     Comprimento dos Dados . . . . . . . . . . : 8
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro CNAME . . . . . . . . . . . . . . : clients.l.google.com
+
+
+     Nome do Registro. . . . . . . . . . . . . : clients.l.google.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 7
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 216.58.202.238
+
+
+    github.githubassets.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : github.githubassets.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 3425
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 185.199.110.154
+
+
+     Nome do Registro. . . . . . . . . . . . . : github.githubassets.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 3425
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 185.199.111.154
+
+
+     Nome do Registro. . . . . . . . . . . . . : github.githubassets.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 3425
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 185.199.108.154
+
+
+     Nome do Registro. . . . . . . . . . . . . : github.githubassets.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 3425
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 185.199.109.154
+
 h) Execute o comando ipconfig/flushdns em seguida o comando ipconfig/displaydns. Quai foi o resultado?
 
+ipconfig/flushdns = Configuração de IP do Windows
+
+Liberação do Cache do DNS Resolver bem-sucedida.
+
+ipconfig/displaydns = Configuração de IP do Windows
+
+    iesb.blackboard.com
+    ----------------------------------------
+     Nome do Registro. . . . . . . . . . . . . : iesb.blackboard.com
+     Tipo de Registro. . . . . . . . . . . . . : 5
+     Tempo de Vida . . . . . . . . . . . . . . : 27
+     Comprimento dos Dados . . . . . . . . . . : 8
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro CNAME . . . . . . . . . . . . . . : learn-prod-5c117f8c48962-647377446.us-east-1.elb.amazonaws.com
+
+
+     Nome do Registro. . . . . . . . . . . . . : learn-prod-5c117f8c48962-647377446.us-east-1.elb.amazonaws.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 27
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 18.233.217.161
+
+
+     Nome do Registro. . . . . . . . . . . . . : learn-prod-5c117f8c48962-647377446.us-east-1.elb.amazonaws.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 27
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 54.174.122.70
+
+
+     Nome do Registro. . . . . . . . . . . . . : learn-prod-5c117f8c48962-647377446.us-east-1.elb.amazonaws.com
+     Tipo de Registro. . . . . . . . . . . . . : 1
+     Tempo de Vida . . . . . . . . . . . . . . : 27
+     Comprimento dos Dados . . . . . . . . . . : 4
+    Seção. . . . . . . . . . . . . . . . . . . : Resposta
+    Registro (Host). . . . . . . . . . . . . . : 34.228.91.20
 
 
 2. Testar a conectividade física entre dois hosts.
 
 a) Execute o comando ping seguido do endereço IP da sua estação, identificado no item anterior. Qual foi o resultado?
 
+Uso: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+          [-r count] [-s count] [[-j host-list] | [-k host-list]]
+          [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+          [-4] [-6] target_name
+
+Opções:
+    -t             Executa ping no host especificado até ser parado.
+                   Para ver as estatísticas e continuar, pressione
+                   Control-Break;
+                   Para parar, pressione Control-C.
+    -a             Resolve os endereços para nomes de host.
+    -n count       Número de solicitações de eco a serem enviadas.
+    -l size        Envia o tamanho de buffer.
+    -f             Define o sinalizador Não Fragmentar no pacote
+                   (somente IPv4).
+    -i TTL         Vida útil.
+    -v TOS         Tipo de Serviço (somente IPv4. Essa configuração
+                   foi preterida e não afeta o tipo de campo de serviço
+                   no Cabeçalho IP).
+    -r count       Registra a rota de saltos de contagem (somente IPv4).
+    -s count       Carimbo de data/hora para saltos de contagem (somente IPv4).
+    -j host-list   Rota de origem flexível em host-list (somente IPv4).
+    -k host-list   Rota de origem rígida em host-list (somente IPv4).
+    -w timeout     Tempo limite em milissegundos de espera por cada resposta.
+    -R             Usa o cabeçalho de roteamento para testar também a rota
+                   inversa (somente IPv6). Conforme RFC 5095, o uso desse
+                   cabeçalho de roteamento foi preterido. Alguns sistemas podem
+                   remover solicitações de eco se esse cabeçalho for usado.
+    -S srcaddr     Endereço de origem a ser usado.
+    -c compartment Identificador de compartimento de roteamento.
+    -p             Executa ping em um endereço de provedor de Virtualização
+                   de Rede Hyper-V.
+    -4             Força o uso de IPv4.
+    -6             Força o uso de IPv6.
+
 b) Execute novamente o comando anterior acrescentando o parametro -t. Qual foi o resultado?
+
+C:\Users\João Gabriel>ping 192.168.0.11 -t1
+
+Disparando 192.168.0.11 com 32 bytes de dados:
+Resposta de 192.168.0.11: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.0.11: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.0.11: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.0.11: bytes=32 tempo<1ms TTL=128
+
+ continuou assim por um bom tempo
 
 c) Execute o comando ping seguido do endereço de loopback. Qual foi o resultado?
 
+Disparando 127.0.0.1 com 32 bytes de dados:
+Resposta de 127.0.0.1: bytes=32 tempo<1ms TTL=128
+Resposta de 127.0.0.1: bytes=32 tempo<1ms TTL=128
+Resposta de 127.0.0.1: bytes=32 tempo<1ms TTL=128
+Resposta de 127.0.0.1: bytes=32 tempo<1ms TTL=128
+
+Estatísticas do Ping para 127.0.0.1:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 0ms, Máximo = 0ms, Média = 0ms
+
 d) Execute o comando ping seguido do endereço do gateway padrão. Qual foi o resultado? 
+
+Disparando fe80::98a3:5f50:1beb:abee%11 com 32 bytes de dados:
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+
+Estatísticas do Ping para fe80::98a3:5f50:1beb:abee%11:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 0ms, Máximo = 0ms, Média = 0ms
 
 e) Execute o comando ping seguido do nome da sua estação. Qual foi o resultado?
 
+Disparando DESKTOP-VL72QU0 [fe80::98a3:5f50:1beb:abee%11] com 32 bytes de dados:
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+Resposta de fe80::98a3:5f50:1beb:abee%11: tempo<1ms
+
+Estatísticas do Ping para fe80::98a3:5f50:1beb:abee%11:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 0ms, Máximo = 0ms, Média = 0ms
+
 f) Execute o comando ping seguido do host www.iesb.br. Qual foi o resultado?
+
+Disparando www.iesb.br [54.174.194.96] com 32 bytes de dados:
+Resposta de 54.174.194.96: bytes=32 tempo=164ms TTL=105
+Resposta de 54.174.194.96: bytes=32 tempo=196ms TTL=105
+Resposta de 54.174.194.96: bytes=32 tempo=164ms TTL=105
+Esgotado o tempo limite do pedido.
+
+Estatísticas do Ping para 54.174.194.96:
+    Pacotes: Enviados = 4, Recebidos = 3, Perdidos = 1 (25% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 164ms, Máximo = 196ms, Média = 174ms
 
 g) Execute o comando ping seguido do host intranet.iesb.br. Qual foi o resultado?
 
-
+A solicitação ping não pôde encontrar o host intranet.iesb.br. Verifique o nome e tente
+novamente.
 
 3. Resolver nomes dos hosts para achar os endereços IP.
 
 a) Execute o comando nslookup seguido do endereço IP da sua estação. Qual foi o resultado?
 
+Servidor:  b5d58403.virtua.com.br
+Address:  181.213.132.3
+
+*** b5d58403.virtua.com.br não encontrou 192.168.0.11: Non-existent domain
+
 b) Execute o comando nslookup seguido do nome da sua estação. Qual foi o resultado?
+
+C:\Users\João Gabriel>nslookup DESKTOP-VL72QU0
+Servidor:  b5d58403.virtua.com.br
+Address:  181.213.132.3
+
+DNS request timed out.
+    timeout was 2 seconds.
+*** b5d58403.virtua.com.br não encontrou DESKTOP-VL72QU0: Server failed
 
 c) Execute o comando nslookup seguido do host www.iesb.br. Qual foi o resultado?
 
+Servidor:  b5d58403.virtua.com.br
+Address:  181.213.132.3
+
+Não é resposta autoritativa:
+Nome:    www.iesb.br
+Address:  54.174.194.96
+
 d) Execute o comando nslookup seguido do host intranet.iesb.br. Qual foi o resultado?
 
+Servidor:  b5d58403.virtua.com.br
+Address:  181.213.132.3
 
+*** b5d58403.virtua.com.br não encontrou intranet.iesb.br: Non-existent domain
 
 4. Verificar rotas entre dois hosts.
 
-a) Execute o comando tracert seguido do endereço IP da sua estação. Quantos saltos foram realizados? O destino foi alcançado? 
+a) Execute o comando tracert seguido do endereço IP da sua estação. Quantos saltos foram realizados? O destino foi alcançado?
+
+1 salto e destino alcançado
 
 b) Execute o comando tracert seguido do endereço do gateway padrão. Quantos saltos foram realizados? O destino foi alcançado?
 
+1 salto e destino alcançado
+
 c) Execute o comando tracert www.iesb.br para verificar o roteamento de pacotes. Qual foi o resultado? O destino foi alcançado?
+
+30 saltos foram feitos e a partir do salto 9 o tempo limite do pedido foi constantemente esgotado. último destino alcançado 72.21.221.208
 
 d) Execute o comando tracert intranet.iesb.br. Qual foi o resultado? O destino foi alcançado?
 
+a mensagem seguinte apareceu :r
+Não é possível resolver o nome do sistema de destino intranet.iesb.br.
+
+destino não alcançado
+
 e) Execute o comando tracert helpdesk.iesb.br. Qual foi o resultado? O destino foi alcançado?
 
-
+30 saltos foram feitos e a partir do salto 6 o tempo limite do pedido foi constantemente esgotado. último endereço alcançado foi 45.171.103.234.
 
 5. Verificar as conexões estabelecidas pelo host.
 
 a) Execute o comando netstat. Qual foi o resultado?
 
+mostrou o estado das conexões:
+Conexões ativas
+
+  Proto  Endereço local         Endereço externo       Estado
+  TCP    127.0.0.1:9395         DESKTOP-VL72QU0:57456  ESTABLISHED
+  TCP    127.0.0.1:49669        DESKTOP-VL72QU0:49670  ESTABLISHED
+  TCP    127.0.0.1:49670        DESKTOP-VL72QU0:49669  ESTABLISHED
+  TCP    127.0.0.1:52004        DESKTOP-VL72QU0:52005  ESTABLISHED
+  TCP    127.0.0.1:52005        DESKTOP-VL72QU0:52004  ESTABLISHED
+  TCP    127.0.0.1:52181        DESKTOP-VL72QU0:52182  ESTABLISHED
+  TCP    127.0.0.1:52182        DESKTOP-VL72QU0:52181  ESTABLISHED
+  TCP    127.0.0.1:52229        DESKTOP-VL72QU0:52230  ESTABLISHED
+  TCP    127.0.0.1:52230        DESKTOP-VL72QU0:52229  ESTABLISHED
+  TCP    127.0.0.1:52251        DESKTOP-VL72QU0:52252  ESTABLISHED
+  TCP    127.0.0.1:52252        DESKTOP-VL72QU0:52251  ESTABLISHED
+  TCP    127.0.0.1:57456        DESKTOP-VL72QU0:9395   ESTABLISHED
+  TCP    127.0.0.1:57465        DESKTOP-VL72QU0:9395   TIME_WAIT
+  TCP    192.168.0.11:56966     52.179.224.121:https   ESTABLISHED
+  TCP    192.168.0.11:56988     ce-in-f188:5228        ESTABLISHED
+  TCP    192.168.0.11:57001     lu4:https              ESTABLISHED
+  TCP    192.168.0.11:57328     lb-140-82-113-25-iad:https  ESTABLISHED
+  TCP    192.168.0.11:57405     151.101.92.133:https   ESTABLISHED
+  TCP    192.168.0.11:57406     151.101.92.133:https   ESTABLISHED
+  TCP    192.168.0.11:57416     lu4:https              ESTABLISHED
+  TCP    192.168.0.11:57432     ec2-18-231-5-6:https   CLOSE_WAIT
+  TCP    192.168.0.11:57433     151.101.92.133:https   ESTABLISHED
+  TCP    192.168.0.11:57435     ec2-18-231-5-6:https   CLOSE_WAIT
+  TCP    192.168.0.11:57439     151.101.92.133:https   ESTABLISHED
+  TCP    192.168.0.11:57440     ec2-18-231-5-6:https   CLOSE_WAIT
+  TCP    192.168.0.11:57441     lb-140-82-112-26-iad:https  ESTABLISHED
+  TCP    192.168.0.11:57442     ec2-18-231-5-6:https   CLOSE_WAIT
+  TCP    192.168.0.11:57461     20.36.219.28:https     ESTABLISHED
+  TCP    192.168.0.11:57462     ec2-52-202-72-222:https  TIME_WAIT
+  TCP    192.168.0.11:57463     ec2-52-202-72-222:https  ESTABLISHED
+  TCP    192.168.0.11:57469     reverse-unset:http     ESTABLISHED
+
 b) Execute o comando netstat -n. Qual foi o resultado? Notou algo diferente?
+
+mostrou o estado das conexões com endereços externos diferentes:
+Conexões ativas
+
+  Proto  Endereço local         Endereço externo       Estado
+  TCP    127.0.0.1:9395         127.0.0.1:57456        ESTABLISHED
+  TCP    127.0.0.1:49669        127.0.0.1:49670        ESTABLISHED
+  TCP    127.0.0.1:49670        127.0.0.1:49669        ESTABLISHED
+  TCP    127.0.0.1:52004        127.0.0.1:52005        ESTABLISHED
+  TCP    127.0.0.1:52005        127.0.0.1:52004        ESTABLISHED
+  TCP    127.0.0.1:52181        127.0.0.1:52182        ESTABLISHED
+  TCP    127.0.0.1:52182        127.0.0.1:52181        ESTABLISHED
+  TCP    127.0.0.1:52229        127.0.0.1:52230        ESTABLISHED
+  TCP    127.0.0.1:52230        127.0.0.1:52229        ESTABLISHED
+  TCP    127.0.0.1:52251        127.0.0.1:52252        ESTABLISHED
+  TCP    127.0.0.1:52252        127.0.0.1:52251        ESTABLISHED
+  TCP    127.0.0.1:57456        127.0.0.1:9395         ESTABLISHED
+  TCP    127.0.0.1:57473        127.0.0.1:9395         TIME_WAIT
+  TCP    192.168.0.11:56966     52.179.224.121:443     ESTABLISHED
+  TCP    192.168.0.11:56988     64.233.190.188:5228    ESTABLISHED
+  TCP    192.168.0.11:57001     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57328     140.82.113.25:443      ESTABLISHED
+  TCP    192.168.0.11:57416     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57477     20.36.219.28:443       TIME_WAIT
+  TCP    192.168.0.11:57479     34.202.127.134:443     ESTABLISHED
+  TCP    192.168.0.11:57480     34.202.127.134:443     ESTABLISHED
+  TCP    192.168.0.11:57481     34.202.127.134:443     ESTABLISHED
+  TCP    192.168.0.11:57484     18.231.5.6:443         ESTABLISHED
+  TCP    192.168.0.11:57486     18.231.5.6:443         ESTABLISHED
+  TCP    192.168.0.11:57487     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57488     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57489     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57490     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57491     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57492     140.82.112.25:443      ESTABLISHED
+  TCP    192.168.0.11:57493     18.231.5.6:443         ESTABLISHED
+  TCP    192.168.0.11:57494     18.231.5.6:443         ESTABLISHED
+  TCP    192.168.0.11:57495     18.231.5.6:443         ESTABLISHED
+  TCP    192.168.0.11:57496     81.161.59.127:80       ESTABLISHED
+  TCP    192.168.0.11:57497     20.36.219.28:443       ESTABLISHED
 
 c) Execute o comando netstat -na. Qual foi o resultado? Notou algo diferente?
 
+mostrou o estado das conexões com endereços externos e estados diferentes, e com informações de proto udp adicionais:
+Conexões ativas
+
+  Proto  Endereço local         Endereço externo       Estado
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:2861           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:2869           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:6183           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:6184           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:9395           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49675          0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:6341         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:6342         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:9395         127.0.0.1:57456        ESTABLISHED
+  TCP    127.0.0.1:49669        127.0.0.1:49670        ESTABLISHED
+  TCP    127.0.0.1:49670        127.0.0.1:49669        ESTABLISHED
+  TCP    127.0.0.1:52004        127.0.0.1:52005        ESTABLISHED
+  TCP    127.0.0.1:52005        127.0.0.1:52004        ESTABLISHED
+  TCP    127.0.0.1:52181        127.0.0.1:52182        ESTABLISHED
+  TCP    127.0.0.1:52182        127.0.0.1:52181        ESTABLISHED
+  TCP    127.0.0.1:52229        127.0.0.1:52230        ESTABLISHED
+  TCP    127.0.0.1:52230        127.0.0.1:52229        ESTABLISHED
+  TCP    127.0.0.1:52251        127.0.0.1:52252        ESTABLISHED
+  TCP    127.0.0.1:52252        127.0.0.1:52251        ESTABLISHED
+  TCP    127.0.0.1:57456        127.0.0.1:9395         ESTABLISHED
+  TCP    127.0.0.1:57502        127.0.0.1:9395         TIME_WAIT
+  TCP    192.168.0.11:139       0.0.0.0:0              LISTENING
+  TCP    192.168.0.11:56966     52.179.224.121:443     ESTABLISHED
+  TCP    192.168.0.11:56988     64.233.190.188:5228    ESTABLISHED
+  TCP    192.168.0.11:57001     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57328     140.82.113.25:443      ESTABLISHED
+  TCP    192.168.0.11:57416     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57484     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57486     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57487     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57488     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57489     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57490     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57491     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57492     140.82.112.25:443      ESTABLISHED
+  TCP    192.168.0.11:57493     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57494     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57495     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57496     81.161.59.127:80       ESTABLISHED
+  TCP    192.168.0.11:57497     20.36.219.28:443       ESTABLISHED
+  TCP    192.168.0.11:57500     52.200.124.86:443      TIME_WAIT
+  TCP    192.168.0.11:57503     191.233.245.194:443    TIME_WAIT
+  TCP    192.168.0.11:57504     191.233.245.194:443    TIME_WAIT
+  TCP    192.168.0.11:57505     192.168.1.255:1688     SYN_SENT
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:2861              [::]:0                 LISTENING
+  TCP    [::]:2869              [::]:0                 LISTENING
+  TCP    [::]:6183              [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49666             [::]:0                 LISTENING
+  TCP    [::]:49667             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49675             [::]:0                 LISTENING
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:56699          *:*
+  UDP    0.0.0.0:60972          *:*
+  UDP    0.0.0.0:62118          *:*
+  UDP    0.0.0.0:63492          *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49666        *:*
+  UDP    127.0.0.1:60907        *:*
+  UDP    192.168.0.11:137       *:*
+  UDP    192.168.0.11:138       *:*
+  UDP    192.168.0.11:1900      *:*
+  UDP    192.168.0.11:2177      *:*
+  UDP    192.168.0.11:60906     *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:60905            *:*
+  UDP    [fe80::98a3:5f50:1beb:abee%11]:1900  *:*
+  UDP    [fe80::98a3:5f50:1beb:abee%11]:2177  *:*
+  UDP    [fe80::98a3:5f50:1beb:abee%11]:60904  *:*
+
 d) Execute o comando netstat -nap TCP. Qual foi o resultado? Notou algo diferente?
+
+mostrou o estado das conexões com endereços externos e estados diferentes, e com informações de proto tcp adicionais:
+Conexões ativas
+
+  Proto  Endereço local         Endereço externo       Estado
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:2861           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:2869           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:6183           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:6184           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:9395           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49675          0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:6341         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:6342         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:9395         127.0.0.1:57456        ESTABLISHED
+  TCP    127.0.0.1:49669        127.0.0.1:49670        ESTABLISHED
+  TCP    127.0.0.1:49670        127.0.0.1:49669        ESTABLISHED
+  TCP    127.0.0.1:52004        127.0.0.1:52005        ESTABLISHED
+  TCP    127.0.0.1:52005        127.0.0.1:52004        ESTABLISHED
+  TCP    127.0.0.1:52181        127.0.0.1:52182        ESTABLISHED
+  TCP    127.0.0.1:52182        127.0.0.1:52181        ESTABLISHED
+  TCP    127.0.0.1:52229        127.0.0.1:52230        ESTABLISHED
+  TCP    127.0.0.1:52230        127.0.0.1:52229        ESTABLISHED
+  TCP    127.0.0.1:52251        127.0.0.1:52252        ESTABLISHED
+  TCP    127.0.0.1:52252        127.0.0.1:52251        ESTABLISHED
+  TCP    127.0.0.1:57456        127.0.0.1:9395         ESTABLISHED
+  TCP    127.0.0.1:57523        127.0.0.1:9395         TIME_WAIT
+  TCP    192.168.0.11:139       0.0.0.0:0              LISTENING
+  TCP    192.168.0.11:56966     52.179.224.121:443     ESTABLISHED
+  TCP    192.168.0.11:56988     64.233.190.188:5228    ESTABLISHED
+  TCP    192.168.0.11:57001     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57416     31.216.147.135:443     ESTABLISHED
+  TCP    192.168.0.11:57484     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57486     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57487     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57488     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57489     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57490     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57491     151.101.92.133:443     ESTABLISHED
+  TCP    192.168.0.11:57492     140.82.112.25:443      ESTABLISHED
+  TCP    192.168.0.11:57493     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57494     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57495     18.231.5.6:443         CLOSE_WAIT
+  TCP    192.168.0.11:57497     20.36.219.28:443       ESTABLISHED
+  TCP    192.168.0.11:57510     23.211.233.179:80      TIME_WAIT
+  TCP    192.168.0.11:57512     140.82.112.26:443      ESTABLISHED
+  TCP    192.168.0.11:57513     34.202.127.134:443     TIME_WAIT
+  TCP    192.168.0.11:57514     34.202.127.134:443     TIME_WAIT
+  TCP    192.168.0.11:57515     34.202.127.134:443     TIME_WAIT
+  TCP    192.168.0.11:57517     104.42.79.240:443      TIME_WAIT
+  TCP    192.168.0.11:57518     52.114.132.22:443      TIME_WAIT
+  TCP    192.168.0.11:57520     81.161.59.127:80       ESTABLISHED
 
 e) Execute o comando netstat -nap UDP. Qual foi o resultado? Notou algo diferente?
 
+mostrou o estado das conexões com endereços externos e estados diferentes, e somente com informações de proto udp :
+Conexões ativas
+
+  Proto  Endereço local         Endereço externo       Estado
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:56699          *:*
+  UDP    0.0.0.0:59978          *:*
+  UDP    0.0.0.0:60972          *:*
+  UDP    0.0.0.0:63492          *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49666        *:*
+  UDP    127.0.0.1:60907        *:*
+  UDP    192.168.0.11:137       *:*
+  UDP    192.168.0.11:138       *:*
+  UDP    192.168.0.11:1900      *:*
+  UDP    192.168.0.11:2177      *:*
+  UDP    192.168.0.11:60906     *:*
+
 f) Abra a página do IESB (www.iesb.br) no navegador. Tente identificar o socket criado através do comando netstat. Qual foi o resultado?
+
+TCP    192.168.0.11:57859     ec2-54-174-194-96:http  ESTABLISHED
+  TCP    192.168.0.11:57860     ec2-54-174-194-96:https  ESTABLISHED
+  TCP    192.168.0.11:57861     ec2-54-174-194-96:https  ESTABLISHED
+  TCP    192.168.0.11:57862     ec2-54-174-194-96:https  ESTABLISHED
+  TCP    192.168.0.11:57863     ec2-54-174-194-96:https  ESTABLISHED
