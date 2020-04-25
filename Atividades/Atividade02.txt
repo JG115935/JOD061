@@ -5,3 +5,9 @@ b) Classificação: Local ou Online
 c) Arquitetura: Cliente-Servidor ou Ponto-a-Ponto
 d) Quantidade de jogadores po sessão.
 e) Problemas comuns do jogo.
+
+a)Destiny 2
+b)Online
+c)Ponto-a-Ponto
+d)1-12
+e)lag, ser desconectado frequentemente do servidor do jogo, incapassidade de iniciar certas atividades devido a conexão, vários cheaters na versão de pc.
